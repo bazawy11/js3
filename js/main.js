@@ -115,6 +115,9 @@ function deleteRecord(index) {
 function clear() {
   siteLink.value = "";
   siteName.value = "";
+  inputField.classList.remove("border-success");
+  inputField.classList.remove("border-5");
+  inputField.classList.remove("border-danger");
 }
 
 function checkUrl(url) {
